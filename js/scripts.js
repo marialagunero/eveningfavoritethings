@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(form#favorite).submit(function(event) {
+  $("form#favorite").submit(function(event) {
     event.preventDefault();
     var favorites = ["color", "drink", "animal", "food", "book"];
 
