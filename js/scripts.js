@@ -5,8 +5,8 @@ $(document).ready(function() {
 
     favorites.forEach(function(favorite) {
       var userInput = $("input#" + favorite).val();
-      console.log(userInput);
       $("." + favorite).text(userInput).val();
+      alert("What's my favorite" + " " + favorite + "?");
 
     });
 
